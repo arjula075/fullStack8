@@ -1,0 +1,3 @@
+En nyt ihan saa kiinni siitä, mitä tuossa 4.12 piti tehdä. Ratkaisussani kanta vedetään ensin tyhjäksi, sen jälkeen lisätään kaksi suoraan mongoosella, ja sitten lähdetään testaamaan
+
+Copy-paste on lähinna api.post:eissa, ja niissä nähdäkseni luettavuuden takia ei se hirveästi painakaan
