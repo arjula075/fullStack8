@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
     "watch": "cross-env NODE_ENV=development nodemon index.js",
-    "test": "cross-env NODE_ENV=test jest --verbose",
+    "test": "cross-env NODE_ENV=test jest --verbose --detectOpenHandles",
     "lint": "eslint ."
   },
   "jest": {
@@ -39,7 +39,7 @@
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.1.2",
     "morgan": "^1.9.1",
-    "npm": "^6.4.1",
+    "npm": "^6.5.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.1.0",
