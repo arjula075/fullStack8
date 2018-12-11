@@ -1,6 +1,5 @@
 // 31.07.2018
 // testing commit with travis
-// source tree is weird
 
 const http = require('http')
 const express = require('express')
